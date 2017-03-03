@@ -1,0 +1,329 @@
+.mail-button {
+  border: 0;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .1s linear;
+}
+
+.mail-button:hover {
+    background-color: #009cec;
+    color: white;
+}
+
+.mail-button:active{
+	box-shadow: 0 2px 0 #006599;
+  transform: translateY(3px);
+}
+
+.contact{
+	-webkit-transform: scale(1);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.contact hr{
+	border: 1pt solid #a7a7a7;
+}
+
+.contact:hover hr{
+	border: 1pt solid #009cec;
+}
+
+.contact:hover h2{
+	color: #0087cc;
+}
+
+.contact:hover label{
+	color: #0087cc;
+}
+
+.contact:hover{
+	-webkit-transform: scale(1);
+	transform: scale(0.98);
+}
+
+#sing{
+	background-color: #fff;
+	text-align: justify;
+}
+
+#sing img{
+	-webkit-transform: scale(1);
+	transform: scale(0.94);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#sing img:hover{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+#sing p{
+	-webkit-transform: scale(1);
+	transform: scale(0.94);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#sing p:hover{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.reference{
+	color: #4CAF50;
+	font-style: italic;
+}
+
+.reference:hover{
+	color: #4CAF50;
+	font-style: italic;
+}
+
+.free-access{
+	-webkit-transform: scale(1);
+	transform: scale(0.95);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	background-color: #f6f175;
+	border-style: solid;
+    border-width: medium;
+    border-color: #dd9a1d;
+}
+
+.free-access:hover{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	background-color: #fffba9;
+	border-style: solid;
+    border-width: medium;
+    border-color: #dd9a1d;
+}
+
+.free-access:hover h1{
+	font-size: 40pt;
+	color:#a57829;
+}
+
+.free-access:hover p{
+	font-size: 12pt;
+}
+
+.free-access:hover a{
+	font-size: 30pt;
+	text-decoration: none;
+	font-style: bold;
+	color: #0087cc;
+}
+
+.free-access h1{
+	color: #534B3D;
+	text-decoration: underline;
+}
+
+.research{
+	background-color: #fff;
+}
+
+.research h3{
+	-webkit-transform: scale(1);
+	transform: scale(0.93);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.research h3:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(1);
+}
+
+.research h1:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(1);
+}
+
+.research p{
+	-webkit-transform: scale(1);
+	transform: scale(0.93);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.research p:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(1);
+}
+
+.research img{
+	-webkit-transform: scale(1);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.research img:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(1);
+}
+
+.teammen{
+	-webkit-transform: scale(1);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	border: 1pt solid #dfdfdf;
+	border-radius: 5px;
+	text-align: justify;
+}
+
+.teammen:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(0.98);
+	border: 1pt solid #A0DCFF;
+	border-radius: 5px;
+}
+
+.teamwoman{
+	-webkit-transform: scale(1);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	border: 1pt solid #dfdfdf;
+	border-radius: 5px;
+	text-align: justify;
+}
+
+.teamwoman:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(0.98);
+	border: 1pt solid #ffc0cb;
+	border-radius: 5px;
+}
+
+.teamwoman:hover h3{
+	color: #ffc0cb;
+}
+
+.teammen:hover h3{
+	color: #A0DCFF;
+}
+
+.teammen:hover h4{
+	color: #c1ccd6;
+}
+
+.teamwoman:hover h4{
+	color: #c1ccd6;
+}
+
+.full-size{
+	height:100vh;
+}
+
+.social img{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	height: 30px;
+	width: 30px;
+}
+
+.social img:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.home{
+	margin-top: 20px;
+	
+}
+
+.home a:hover{
+	text-decoration: none;
+	color: #43CD80;
+  	text-decoration: underline;
+}
+
+.home h2{
+	-webkit-transform: scale(1);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.home h2:hover{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.home h4{
+	-webkit-transform: scale(1);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	color: #595e63;
+}
+
+.home h4:hover{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.home img{
+	-webkit-transform: scale(1);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.home img:hover{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.publications{
+	-webkit-transform: scale(1);
+	transform: scale(0.9);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	border-radius: 4px;
+    background-color: #f0f0f0;
+}
+
+.publications a{
+	text-decoration: none;
+	color: #98cc86;
+}
+
+.publications p{
+	margin-left: 5px;
+}
+
+#bookmark{
+	color: #98cc86;
+	font-size: 20pt;
+}
+
+.publications:hover{
+	-webkit-transform: scale(1.1);
+	transform: scale(1);
+}
+
+.publications:hover a{
+	text-decoration: underline;
+	color: #009cec;
+}
+
+.publications:hover #bookmark{
+	color: #009cec;
+}
