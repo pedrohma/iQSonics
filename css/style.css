@@ -1,25 +1,25 @@
 .mail-button {
-  border: 0;
-  background: #0087cc;
-  border-radius: 4px;
-  box-shadow: 0 5px 0 #006599;
-  color: #fff;
-  cursor: pointer;
-  font: inherit;
-  margin: 0;
-  outline: 0;
-  padding: 12px 20px;
-  transition: all .1s linear;
+	border: 0;
+	background: #0087cc;
+	border-radius: 4px;
+	box-shadow: 0 5px 0 #006599;
+	color: #fff;
+	cursor: pointer;
+	font: inherit;
+	margin: 0;
+	outline: 0;
+	padding: 12px 20px;
+	transition: all .1s linear;
 }
 
 .mail-button:hover {
-    background-color: #009cec;
-    color: white;
+	background-color: #009cec;
+	color: white;
 }
 
 .mail-button:active{
 	box-shadow: 0 2px 0 #006599;
-  transform: translateY(3px);
+	transform: translateY(3px);
 }
 
 .contact{
@@ -96,8 +96,8 @@
 	transition: .3s ease-in-out;
 	background-color: #f6f175;
 	border-style: solid;
-    border-width: medium;
-    border-color: #dd9a1d;
+	border-width: medium;
+	border-color: #dd9a1d;
 }
 
 .free-access:hover{
@@ -105,8 +105,8 @@
 	transform: scale(1);
 	background-color: #fffba9;
 	border-style: solid;
-    border-width: medium;
-    border-color: #dd9a1d;
+	border-width: medium;
+	border-color: #dd9a1d;
 }
 
 .free-access:hover h1{
@@ -251,7 +251,7 @@
 .home a:hover{
 	text-decoration: none;
 	color: #43CD80;
-  	text-decoration: underline;
+	text-decoration: underline;
 }
 
 .home h2{
@@ -297,7 +297,7 @@
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 	border-radius: 4px;
-    background-color: #f0f0f0;
+	background-color: #f0f0f0;
 }
 
 .publications a{
@@ -309,9 +309,49 @@
 	margin-left: 5px;
 }
 
-#bookmark{
+.bookmark{
 	color: #98cc86;
 	font-size: 20pt;
+}
+
+#bookmark-lg{
+	color: #8f0000;
+	font-size: 60pt;
+	margin-top: -4pt;
+}
+
+.bookmark-lg-blog{
+	color: #8f0000;
+	font-size: 40pt;
+	margin-top: -3pt;
+}
+
+.bookmark-lg-blog:hover{
+	color: #7bb0d0;
+}
+
+.blogborder img{
+	-webkit-transform: scale(1.1);
+	transform: scale(0.93);
+}
+
+.blogborder img:hover{
+	c-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.bookmark-lg-blog p{
+	-webkit-transform: scale(1.1);
+	transform: scale(0.93);
+}
+
+.bookmark-lg-blog p:hover{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .publications:hover{
@@ -327,3 +367,94 @@
 .publications:hover #bookmark{
 	color: #009cec;
 }
+
+.blog{
+	margin-top: 10px;
+}
+
+.blog p{
+	-webkit-transform: scale(1);
+	transform: scale(0.95);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;}
+
+.blog p:hover{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.blog h2{
+	-webkit-transform: scale(1);
+	transform: scale(0.95);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.blog h2:hover{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.blog h4{
+	-webkit-transform: scale(1);
+	transform: scale(0.95);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.blog h4:hover{
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+.blogborder{
+	border-top: 2px solid #bfbfbf;
+	border-bottom: 2px solid #bfbfbf;
+	border-left: 50px solid #00cdcd;
+}
+
+.social-blog{	
+	border-radius: 5pt;
+	border: 1pt solid #c1c1c1;
+}
+
+.social-blog:hover{	
+	border-radius: 5pt;
+	border: 1pt solid #7bb0d0;
+}
+
+.social-blog hr{ 
+	margin-top: -3px;
+	border: 1pt solid #c1c1c1;
+}
+
+.social-blog:hover hr{	
+	border-radius: 5pt;
+	border: 1pt solid #7bb0d0;
+}
+
+.social-blog img{
+	margin-top: -20px;
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	height: 30px;
+	width: 30px;
+}
+
+.social-blog img:hover{
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+#back:hover a{
+	color: #8f0000;
+	text-decoration: none;
+}
+
+
+
+
+
+
