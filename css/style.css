@@ -330,6 +330,55 @@
 	color: #7bb0d0;
 }
 
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 480px) {
+ .header img{
+ 	height: 200px;
+ 	width: 410px;
+ 	margin-left: -6px;
+ 	margin-top: 11px;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.header img{
+ 	height: 200px;
+ 	width: 767px;
+ 	margin-left: -6px;
+ 	margin-top: 11px;
+	}
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+.header img{
+ 	height: 350px;
+ 	width: 100%;
+ 	margin-top: 11px;
+	}
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+.header img{
+ 	height: 200px;
+ 	width: 1199px;
+ 	margin-left: -6px;
+ 	margin-top: 11px;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+.header img{
+ 	height: 200px;
+ 	width: 620px;
+ 	margin-left: -6px;
+ 	margin-top: 11px;
+	}
+}
+
 .blogborder img{
 	-webkit-transform: scale(1.1);
 	transform: scale(0.93);
