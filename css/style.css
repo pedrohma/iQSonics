@@ -22,12 +22,6 @@
 	transform: translateY(3px);
 }
 
-.contact{
-	-webkit-transform: scale(1);
-	transform: scale(0.9);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
 
 .contact hr{
 	border: 1pt solid #a7a7a7;
@@ -45,11 +39,6 @@
 	color: #0087cc;
 }
 
-.contact:hover{
-	-webkit-transform: scale(1);
-	transform: scale(0.98);
-}
-
 #sing{
 	background-color: #fff;
 	text-align: justify;
@@ -63,18 +52,6 @@
 }
 
 #sing img:hover{
-	-webkit-transform: scale(1);
-	transform: scale(1);
-}
-
-#sing p{
-	-webkit-transform: scale(1);
-	transform: scale(0.94);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-
-#sing p:hover{
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
@@ -134,35 +111,6 @@
 	background-color: #fff;
 }
 
-.research h3{
-	-webkit-transform: scale(1);
-	transform: scale(0.93);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-
-.research h3:hover{
-	-webkit-transform: scale(1.3);
-	transform: scale(1);
-}
-
-.research h1:hover{
-	-webkit-transform: scale(1.3);
-	transform: scale(1);
-}
-
-.research p{
-	-webkit-transform: scale(1);
-	transform: scale(0.93);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-
-.research p:hover{
-	-webkit-transform: scale(1.3);
-	transform: scale(1);
-}
-
 .research img{
 	-webkit-transform: scale(1);
 	transform: scale(0.9);
@@ -185,6 +133,10 @@
 	text-align: justify;
 }
 
+.teammen img{
+	margin-top: 20pt;
+}
+
 .teammen:hover{
 	-webkit-transform: scale(1.3);
 	transform: scale(0.98);
@@ -200,6 +152,10 @@
 	border: 1pt solid #dfdfdf;
 	border-radius: 5px;
 	text-align: justify;
+}
+
+.teamwoman img{
+	margin-top: 20pt;
 }
 
 .teamwoman:hover{
@@ -254,31 +210,6 @@
 	text-decoration: underline;
 }
 
-.home h2{
-	-webkit-transform: scale(1);
-	transform: scale(0.9);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-
-.home h2:hover{
-	-webkit-transform: scale(1);
-	transform: scale(1);
-}
-
-.home h4{
-	-webkit-transform: scale(1);
-	transform: scale(0.9);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-	color: #595e63;
-}
-
-.home h4:hover{
-	-webkit-transform: scale(1);
-	transform: scale(1);
-}
-
 .home img{
 	-webkit-transform: scale(1);
 	transform: scale(0.9);
@@ -316,8 +247,30 @@
 
 #bookmark-lg{
 	color: #8f0000;
-	font-size: 60pt;
-	margin-top: -4pt;
+	font-size: 50pt;
+	margin-top: -6pt;
+	margin-left: -13pt;
+	-webkit-transform: scale(1.1);
+	transform: scale(0.93);
+}
+
+#bookmark-lg:hover{
+	c-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+#blog-img{
+	-webkit-transform: scale(1.1);
+	transform: scale(0.93);
+}
+
+#blog-img:hover{
+	c-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 }
 
 .bookmark-lg-blog{
@@ -372,45 +325,19 @@
 	margin-top: 10px;
 }
 
-.blog p{
-	-webkit-transform: scale(1);
-	transform: scale(0.95);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;}
-
-.blog p:hover{
-	-webkit-transform: scale(1);
-	transform: scale(1);
+.blogborder-img{
+	border-top: 2px solid #bfbfbf;
+	border-bottom: 2px solid #bfbfbf;
+	border-left: 50px solid #00cdcd;
 }
 
-.blog h2{
-	-webkit-transform: scale(1);
-	transform: scale(0.95);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-
-.blog h2:hover{
-	-webkit-transform: scale(1);
-	transform: scale(1);
-}
-
-.blog h4{
-	-webkit-transform: scale(1);
-	transform: scale(0.95);
-	-webkit-transition: .3s ease-in-out;
-	transition: .3s ease-in-out;
-}
-
-.blog h4:hover{
-	-webkit-transform: scale(1);
-	transform: scale(1);
+.blogborder-img img{
+	margin-top: -4pt;
 }
 
 .blogborder{
 	border-top: 2px solid #bfbfbf;
 	border-bottom: 2px solid #bfbfbf;
-	border-left: 50px solid #00cdcd;
 }
 
 .social-blog{	
